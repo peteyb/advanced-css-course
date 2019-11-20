@@ -40,7 +40,7 @@ breakpoint names
         @media (max-width: 75em) { @content };  // 1200px
     }
     @if $breakpoint == big-desk {
-        @media (min-width: 12.5em) { @content };  // 1800px
+        @media (min-width: 112.5em) { @content };  // 1800px
     }
 }
 
