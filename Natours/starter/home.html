@@ -30,7 +30,7 @@
                 <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your Benefits</a></li>
                 <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
                 <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                <li class="navigation__item"><a href="#popup" class="navigation__link"><span>05</span>Book now</a></li>
             </ul>
         </nav>
     </div>
@@ -46,7 +46,7 @@
                 <span class="heading-primary--sub">is where life happens</span>
             </h1>
 
-            <a href="#" class="btn btn--white">
+            <a href="#section-tours" class="btn btn--white">
                 Discover our tours
             </a>
         </div>
@@ -91,7 +91,7 @@
             </div>
         </section>
 
-        <section class="section-features">
+        <section class="section-features" id="section-tours">
             <div class="row">
                 <div class="col-1-of-4">
                     <div class="feature-box">
@@ -171,7 +171,7 @@
                                     <p class="card__price-value">£297</p>
                                 </div>
 
-                                <a href="#" class="btn btn--white">Book now!</a>
+                                <a href="#popup" class="btn btn--white">Book now!</a>
                             </div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                                     <p class="card__price-value">£498</p>
                                 </div>
 
-                                <a href="#" class="btn btn--white">Book now!</a>
+                                <a href="#popup" class="btn btn--white">Book now!</a>
                             </div>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
                                     <p class="card__price-value">£799</p>
                                 </div>
 
-                                <a href="#" class="btn btn--white">Book now!</a>
+                                <a href="#popup" class="btn btn--white">Book now!</a>
                             </div>
                         </div>
                     </div>
@@ -245,7 +245,7 @@
             </div>
 
             <div class="u-center-text u-mt-big">
-                <a href="#" class="btn btn--green">Discover all tours</a>
+                <a href="#section-tours" class="btn btn--green">Discover all tours</a>
             </div>
         </section>
 
@@ -381,19 +381,20 @@
         </div>
     </footer>
 
-    <div class="popup">
+    <div class="popup" id="popup">
         <div class="popup__content">
             <div class="popup__left">
                 <img src="img/nat-8.jpg" alt="tour" class="popup__img">
                 <img src="img/nat-9.jpg" alt="tour photo 2" class="popup__img">
             </div>
             <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
                 <h2 class="heading-secondary u-mb-small">Start booking now</h2>
                 <h3 class="heading-tertiary u-mb-small">Important &ndash; Please read these terms</h3>
                 <div class="popup__text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis impedit dolore ea, hic quas ut voluptatum magni sapiente dicta facilis in sed? Distinctio cupiditate voluptatibus tempora? A ea eius nihil.ea, hic quas ut voluptatum magni sapiente dicta facilis in sed? Distinctio cupiditate voluptatibus tempora? A ea eius nihil.
                 </div>
-                <a href="#" class="btn btn--green">book now</a>
+                <a href="#popup" class="btn btn--green">book now</a>
             </div>
         </div>
     </div>
