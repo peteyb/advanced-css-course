@@ -40,6 +40,10 @@ body {
     body {
       padding: 0; } }
 
+::selection {
+  background-color: #55c57a;
+  color: #f1f1f1; }
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
